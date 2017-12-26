@@ -7,9 +7,9 @@ import { Product } from '../../services/product.service';
   styleUrls: ['./product-item.component.css']
 })
 export class ProductItemComponent implements OnInit {
-  @Input() product:Product;
+  @Input() product: Product;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

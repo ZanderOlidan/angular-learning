@@ -12,8 +12,8 @@ export class ProductService {
 
   constructor() { }
 
-  getProducts():Array<Product> { 
-    return null
+  getProducts(): Array<Product> {
+    return null;
   }
 
 }
