@@ -12,7 +12,7 @@ import { StarsComponent } from './components/stars/stars.component';
 import { AppComponent } from './components/application/app.component';
 
 
-import { ProductService } from './services/product.service';
+// import { ProductService } from './services/product.service';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { HomeComponent } from './components/home/home.component';
 
@@ -40,7 +40,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   providers: [
-    ProductService
+    // ProductService
   ],
   bootstrap: [AppComponent]
 })

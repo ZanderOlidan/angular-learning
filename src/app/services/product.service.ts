@@ -5,7 +5,7 @@ export class Product {
   price: number;
   description: string;
   rating: number;
-};
+}
 
 @Injectable()
 export class ProductService {

@@ -4,7 +4,8 @@ import { ProductService, Product } from '../../services/product.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  providers: [ProductService]
 })
 export class HomeComponent implements OnInit {
   products: Product[];
